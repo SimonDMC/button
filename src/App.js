@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Button from "./components/Button";
+import Counter from "./components/Counter";
+import 'firebase/compat/firestore';
+
+// CHANGE THIS WHEN TESTING (main/dev)
+const ENV = 'dev';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="main">
+        <Button env={ENV}/>
+        <Counter env={ENV}/>
+      </div>
+      <span className="disclaimer">Disclaimer: This project is in beta, expect the count to reset at any point.</span>
     </div>
   );
 }
