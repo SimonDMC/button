@@ -15,6 +15,7 @@
   gap: 30px;
   text-shadow: 0 0 10px black;
   font-weight: 900;
+  user-select: none;
 }
 
 .Button {
