@@ -6,4 +6,4 @@ Whatever you do, don't press the button.
 Built with [NodeJS](https://nodejs.org), [React](https://react.com) and [Firebase](https://firebase.com).
 
 ## Dependencies
-This project uses firebase-react-hooks.
+This project uses [firebase-react-hooks](https://www.npmjs.com/package/react-firebase-hooks).
