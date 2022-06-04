@@ -11,14 +11,14 @@
   height: 100vh;
   font-family: 'Roboto', sans-serif;
   color: rgb(232, 250, 255);
-  font-size: 80px;
+  font-size: min(80px, 13vw);
   gap: 30px;
   text-shadow: 0 0 10px black;
   font-weight: 900;
 }
 
 .Button {
-  width: 500px;
+  width: min(500px, 80%);
   filter: drop-shadow(0 0 5px #000);
   cursor: pointer;
 }
@@ -32,5 +32,5 @@
   margin-right: auto;
   width: fit-content;
   color: #353a42;
-  font-size: 20px;
+  font-size: min(20px, 3vw);
 }
