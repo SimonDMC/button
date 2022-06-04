@@ -6,6 +6,11 @@ import 'firebase/compat/firestore';
 // CHANGE THIS WHEN TESTING (main/dev)
 const ENV = 'dev';
 
+// remove context menu
+document.oncontextmenu = function() {
+  return false;
+};
+
 function App() {
   return (
     <div>
