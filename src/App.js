@@ -1,26 +1,25 @@
-import './App.css';
+import "./App.css";
 import Button from "./components/Button";
 import Counter from "./components/Counter";
-import 'firebase/compat/firestore';
+import "firebase/compat/firestore";
 
 // CHANGE THIS WHEN TESTING (main/dev)
-const ENV = 'dev';
+const ENV = "dev";
 
 // remove context menu
-document.oncontextmenu = function() {
-  return false;
+document.oncontextmenu = function () {
+    return false;
 };
 
 function App() {
-  return (
-    <div>
-      <div className="main">
-        <Button env={ENV}/>
-        <Counter env={ENV}/>
-      </div>
-      <span className="disclaimer">Disclaimer: This project is in beta, expect the count to reset at any point.</span>
-    </div>
-  );
+    return (
+        <div>
+            <div className="main">
+                <Button env={ENV} />
+                <Counter env={ENV} />
+            </div>
+        </div>
+    );
 }
 
 export default App;

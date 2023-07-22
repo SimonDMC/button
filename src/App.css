@@ -16,29 +16,17 @@
   text-shadow: 0 0 10px black;
   font-weight: 900;
   /* disable image hold on mobile */
-  -webkit-touch-callout:none;
-  -webkit-user-select:none;
-  -khtml-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
-  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .Button {
   width: min(500px, 80%);
   filter: drop-shadow(0 0 5px #000);
   cursor: pointer;
-}
-
-.disclaimer {
-  position: absolute;
-  bottom: 1%;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: fit-content;
-  color: #353a42;
-  font-size: min(20px, 3vw);
 }
